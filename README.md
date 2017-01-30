@@ -16,7 +16,7 @@ This document **cannot** provide legal advice. All consequences and risk remain 
 
 In general, online gambling is illegal in the United States. Two markets have special exceptions. The Iowa Electronic Markets (founded 1988) and PredictIt (founded 2014) both have "no-action" letters from the Commodity Futures Trading Commission (CFTC). These letters state the CFTC does not intend to pursue action against the markets in question.
 
-Trades in both markets are constrained as a result, with max-wagers in the neighborhood of $500 or $850 USD. Other restrictions concerning account sign-up and verification may also apply. These markets are academic markets, intended for research into prediction market mechanics.
+Trades in both markets are constrained as a result, with max wagers in the neighborhood of $500 or $850 USD. Other restrictions concerning account sign-up and verification may also apply. These markets are academic markets, intended for research into prediction market mechanics.
 
 In general, online PM's with *fake money* or points appear to be legal. A well-known example is the Hollywood Stock Exchange (HSX). 
 
