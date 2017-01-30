@@ -30,7 +30,7 @@ It is worth noting that the one of the earliest proponents of prediction markets
 
 # How do prediction markets work? 
 ## Key players
-In PM's there are three key entities: **participants**, the **market institution** (or "market maker"), and the **oracle**. Participants place bets on the outcome of future events. Market institutions facilitate the bet-making process, keep track of bets, and handle payment. Oracles are a source of turth that determines whether or not an event happened. Participants agree to be bound by oracles' decisions when placing their bets with the market maker.
+In PM's there are three key entities: **participants**, the **market institution** (or "market maker"), and the **oracle**. **Participants** place bets on the outcome of future events. **Market institutions** facilitate the bet-making process, keep track of bets, and handle payment. **Oracles** are a source of turth that determines whether or not an event happened. Participants agree to be bound by oracles' decisions when placing their bets with the market maker.
 ## Making a bet: two models
 There are two main models for how betting can be coordinated in a PM. We'll walk through one to motivate the other. 
 
