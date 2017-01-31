@@ -115,14 +115,15 @@ There are several desirable theoretical properties for a PM.
 
 3. Arbitrage-free (under condition of rational agent) - Abritrage refers to a method of extracting value from the market without contributing information. An aribtraging player starts with a certain amount of money, e.g. $100, makes a certain sequence of trades, and ends up with more money *without having risked any loss.* We want to avoid arbitrage opportunities, as they represent inefficiencies in the market. Transaction fees are one method of imposing an opportunity cost on arbitraging players.  
 
-4. Sybil Proofness (under condition of rational agent) - A Sybil attack refers to a malicious player attacking a system by signing up for multiple accounts. Accounts that might look to be distinct are actually all under the control of a single player. This attack is not expected to matter for real-money markets, where the value of 10 accounts with $5 each is the same as the valu eof 1 account with $50. Sybil attacks may pose a greater challenge for fake money (points) markets, where account creation is incentivized with a starting reward of some initial amount of points (UNFINISHED - how does HSX deal with this?)  
+4. Sybil Proofness (under condition of rational agent) - A Sybil attack refers to a malicious player attacking a system by signing up for multiple accounts. Accounts that might look to be distinct are actually all under the control of a single player. This attack is not expected to matter for real-money markets, where the value of 10 accounts with $5 each is the same as the value of 1 account with $50. Sybil attacks may pose a greater challenge for fake money (points) markets, where account creation is incentivized with a starting reward of some initial amount of points (UNFINISHED - how does HSX deal with this?)  
 
-5. Trustworthy Oracles - how can market participants trust the Oracles? How might Oracles participation in the market threaten Oracle integrity?  
+5. Trustworthy Oracles - how can market participants trust the Oracles? How might Oracles' participation in the market threaten Oracle integrity?  
 
 6. Bounded loss to market maker - If we are using an automated market maker mechanism, we expect to have a known, finite worst-case loss to the market maker.  
 
 # Practically speaking, how can a PM be compromised?
 Use this section and the above to aid production of your threat model. 
+
 1. Sybil attacks - if it's play money, and you get some play money for signing up, then you incentivize false account signup. 
 
 2. Price manipulation - if the market is taken as informative by outsiders, then incentive exists to manipulate the prices (which are probabilities that the event you're betting on will happen)
