@@ -65,6 +65,7 @@ The following descriptions are not exhaustive.
 * Academic intent
 * Participants may only risk between $5 and $500 
 * Operated by University of Iowa Tippie College of Business  
+
 ##PredictIt
 * Unregulated by CFTC or other agencies ("no-action" letter)
 * Real-money
@@ -74,22 +75,27 @@ The following descriptions are not exhaustive.
 * Limit of 5,000 traders per question
 * No participation from residents of Nevada or Washington state
 * Operated by Victoria University of Wellington  
+
 ##Nadex
 * "North American Derivatives Exchange"
 * Regulated by CFTC
 * Real-money
 * Trades must be fully funded in advance. No margin trading.  
+
 ##Augur
 * Decentralized prediction market built on top of Ethereum, a blockchain technology (like Bitcoin, but different)
 * Oracle function is distributed, and operates on the basis of "REP." Oracles are incentivized to be truthful by receiving a share of transaction fees on the basis of how much REP they control. Deceitful Oracles lose REP, which is redistributed to truthful Oracles.  
+
 ##Gnosis
 * Decentralized prediction market built on top of Ethereum
 * Oracle function is a hybrid decentralized/centralized approach, with the goal of clearing trades faster than Augur (which could take a month to allow its distributed Oracles to complete voting)
 * See https://blog.gnosis.pm/the-difference-between-gnosis-and-augur-c08077271a8e for more  
+
 ##Hollywood Stock Exchange (HSX)
 * Fake money (points)
 * Targeted at entertainment industry, e.g. predicting Oscars
 * Has a history of performing well, according to its Wikipedia page. Unclear about recent performance.  
+
 ##Predictious
 * Bitcoin prediction market
 * Appears to be low volume, low liquidity (blog posts are from 2014)
