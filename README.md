@@ -108,6 +108,7 @@ Unfinished
 
 # Desirable theoretical properties of a PM
 There are several desirable theoretical properties for a PM.
+
 1. Outcomes are mutually exclusive - contracts should cover mutually exclusive outcomes: e.g., it either rains tomorrow or it does not.  
 
 2. Strategy proofness - A strategy proof market is one in which participants make bets that reflect their true estimates of an outcome's probability. In technical langauge, we want "myopic incentive compatibility," which means that an agent who comes to the market once to place a single bet on a given question reports their true belief. Strategy proofness over the long-run (e.g. multiple bets by the same participant, perhaps in multiple questions, perhaps in an attempt to game other participants) may be a more difficult condition to meet.  
