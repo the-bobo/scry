@@ -123,8 +123,33 @@ Use this section and the above to aid production of your threat model.
 
 # Tracing a bet from start to finish
 Unfinished
+
 ## CDA model
-Unfinished
+
+Assume the following:
+* a set of participants, which may at any time be buyers or sellers
+* a currency
+* contracts, consisting of:
+    * pay out a specific amount of currency if
+    * a CVE of specific severity is discovered for
+    * the piece of software in question within
+    * the time until the contract expires
+* orders, consisting of:
+    * a contract,
+    * the number of units of contract
+    * a bidding price (for buy orders) or asking price (for sell orders)
+* an order book, which is a priority queue, for bids and asks
+    * the bid queue is ordered by descending price, then submission time
+    * the ask queue is ordered by ascending price, then submission time
+* a price quote, showing the first N items from the bid/ask queues, is available to participants 
+
+### New Limit Orders
+1) A new order is placed (I want to buy 10 shares of "If a moderate severity CVE for Internet Explorer is discovered by 1 March 2017 then this contract pays $1" for $0.33 each)
+2) It is enqueued on the bid/ask queue
+3) If the highest bid >= to the highest ask price, then we execute a trade
+4) If number of contracts specified in these orders is not identical, then the number of contracts traded will be the lower of the two.
+5) We update the participants accounts and dequeue the traded contracts
+
 ## MSR model
 Unfinished
 
@@ -160,3 +185,4 @@ Unfinished
 * [David Pennock's "Implementing Hanson's Market Maker" (joint work with Yiling Chen)](http://blog.oddhead.com/2006/10/30/implementing-hansons-market-maker/)
 * [Augur Blog: "What is Reputation?" (Augur's distributed oracle approach)](http://augur.strikingly.com/blog/what-is-reputation)
 * [A Utility Framework for Bounded-Loss Market Makers Chen, Pennock](https://web.archive.org/web/20100715043447/http://www.yiling.seas.harvard.edu/files/MM_UAI_final.pdf)
+* [Continuous Double Auctions](https://isites.harvard.edu/fs/docs/icb.topic781759.files/11.2%20CDA.pdf)
