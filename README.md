@@ -64,7 +64,7 @@ The following descriptions are not exhaustive.
 * Not-for-profit
 * Academic intent
 * Participants may only risk between $5 and $500 
-* Operated by University of Iowa Tippie College of Business
+* Operated by University of Iowa Tippie College of Business  
 ##PredictIt
 * Unregulated by CFTC or other agencies ("no-action" letter)
 * Real-money
@@ -73,23 +73,23 @@ The following descriptions are not exhaustive.
 * Participants may only risk up to $850 per question
 * Limit of 5,000 traders per question
 * No participation from residents of Nevada or Washington state
-* Operated by Victoria University of Wellington
+* Operated by Victoria University of Wellington  
 ##Nadex
 * "North American Derivatives Exchange"
 * Regulated by CFTC
 * Real-money
-* Trades must be fully funded in advance. No margin trading.
+* Trades must be fully funded in advance. No margin trading.  
 ##Augur
 * Decentralized prediction market built on top of Ethereum, a blockchain technology (like Bitcoin, but different)
-* Oracle function is distributed, and operates on the basis of "REP." Oracles are incentivized to be truthful by receiving a share of transaction fees on the basis of how much REP they control. Deceitful Oracles lose REP, which is redistributed to truthful Oracles.
+* Oracle function is distributed, and operates on the basis of "REP." Oracles are incentivized to be truthful by receiving a share of transaction fees on the basis of how much REP they control. Deceitful Oracles lose REP, which is redistributed to truthful Oracles.  
 ##Gnosis
 * Decentralized prediction market built on top of Ethereum
 * Oracle function is a hybrid decentralized/centralized approach, with the goal of clearing trades faster than Augur (which could take a month to allow its distributed Oracles to complete voting)
-* See https://blog.gnosis.pm/the-difference-between-gnosis-and-augur-c08077271a8e for more
+* See https://blog.gnosis.pm/the-difference-between-gnosis-and-augur-c08077271a8e for more  
 ##Hollywood Stock Exchange (HSX)
 * Fake money (points)
 * Targeted at entertainment industry, e.g. predicting Oscars
-* Has a history of performing well, according to its Wikipedia page. Unclear about recent performance.
+* Has a history of performing well, according to its Wikipedia page. Unclear about recent performance.  
 ##Predictious
 * Bitcoin prediction market
 * Appears to be low volume, low liquidity (blog posts are from 2014)
@@ -102,12 +102,17 @@ Unfinished
 
 # Desirable theoretical properties of a PM
 There are several desirable theoretical properties for a PM.
-1. Outcomes are mutually exclusive - contracts should cover mutually exclusive outcomes: e.g., it either rains tomorrow or it does not.
-2. Strategy proofness - A strategy proof market is one in which participants make bets that reflect their true estimates of an outcome's probability. In technical langauge, we want "myopic incentive compatibility," which means that an agent who comes to the market once to place a single bet on a given question reports their true belief. Strategy proofness over the long-run (e.g. multiple bets by the same participant, perhaps in multiple questions, perhaps in an attempt to game other participants) may be a more difficult condition to meet.
-3. Arbitrage-free (under condition of rational agent) - Abritrage refers to a method of extracting value from the market without contributing information. An aribtraging player starts with a certain amount of money, e.g. $100, makes a certain sequence of trades, and ends up with more money *without having risked any loss.* We want to avoid arbitrage opportunities, as they represent inefficiencies in the market. Transaction fees are one method of imposing an opportunity cost on arbitraging players.
-4. Sybil Proofness (under condition of rational agent) - A Sybil attack refers to a malicious player attacking a system by signing up for multiple accounts. Accounts that might look to be distinct are actually all under the control of a single player. This attack is not expected to matter for real-money markets, where the value of 10 accounts with $5 each is the same as the valu eof 1 account with $50. Sybil attacks may pose a greater challenge for fake money (points) markets, where account creation is incentivized with a starting reward of some initial amount of points (UNFINISHED - how does HSX deal with this?)
-5. Trustworthy Oracles - how can market participants trust the Oracles? How might Oracles participation in the market threaten Oracle integrity?
-6. Bounded loss to market maker - If we are using an automated market maker mechanism, we expect to have a known, finite worst-case loss to the market maker.
+1. Outcomes are mutually exclusive - contracts should cover mutually exclusive outcomes: e.g., it either rains tomorrow or it does not.  
+
+2. Strategy proofness - A strategy proof market is one in which participants make bets that reflect their true estimates of an outcome's probability. In technical langauge, we want "myopic incentive compatibility," which means that an agent who comes to the market once to place a single bet on a given question reports their true belief. Strategy proofness over the long-run (e.g. multiple bets by the same participant, perhaps in multiple questions, perhaps in an attempt to game other participants) may be a more difficult condition to meet.  
+
+3. Arbitrage-free (under condition of rational agent) - Abritrage refers to a method of extracting value from the market without contributing information. An aribtraging player starts with a certain amount of money, e.g. $100, makes a certain sequence of trades, and ends up with more money *without having risked any loss.* We want to avoid arbitrage opportunities, as they represent inefficiencies in the market. Transaction fees are one method of imposing an opportunity cost on arbitraging players.  
+
+4. Sybil Proofness (under condition of rational agent) - A Sybil attack refers to a malicious player attacking a system by signing up for multiple accounts. Accounts that might look to be distinct are actually all under the control of a single player. This attack is not expected to matter for real-money markets, where the value of 10 accounts with $5 each is the same as the valu eof 1 account with $50. Sybil attacks may pose a greater challenge for fake money (points) markets, where account creation is incentivized with a starting reward of some initial amount of points (UNFINISHED - how does HSX deal with this?)  
+
+5. Trustworthy Oracles - how can market participants trust the Oracles? How might Oracles participation in the market threaten Oracle integrity?  
+
+6. Bounded loss to market maker - If we are using an automated market maker mechanism, we expect to have a known, finite worst-case loss to the market maker.  
 
 # Practically speaking, how can a PM be compromised?
 Use this section and the above to aid production of your threat model. 
