@@ -36,7 +36,7 @@ There are two main models for how betting can be coordinated in a PM. We'll walk
 
 In any PM the price of a contract reflects the market participants' belief in the likelihood of the event occuring (see also: Arrow-Debreu securities). Prices are generally between $0.01 and $0.99, with a successful contract paying $1 upon completion. 
 
-Accordingly, if you buy a Yes share in an event at $0.05 and the event later happens, you make $0.95 in profit. If you had waited until the price was $0.50, your profit would only be $0.45. 
+Accordingly, if you buy a Yes share in an event at $0.05 and the event later happens, you make $0.95 in profit. If you had waited until the price was $0.55, your profit would only be $0.45. 
 
 How should market institutions set the price of shares?
 ## Pricing model one: Continuous Double Auction (CDA)
